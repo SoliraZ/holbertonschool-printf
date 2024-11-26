@@ -2,8 +2,8 @@
 
 /**
  * _format - Function that print characters.
- * type: character string.
- * args: arguments.
+ * @type: character string.
+ * @args: arguments.
  *
  * Return: the number of characters printed.
  */
@@ -15,6 +15,8 @@ int	_format(const char type, va_list args)
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
+		{"d", print_int},
+		{"i", print_int},
 		{'\0', NULL}
 	};
 
