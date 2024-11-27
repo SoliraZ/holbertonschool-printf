@@ -9,10 +9,10 @@
 
 int     print_int(va_list args)
 {
-	int     nb = va_arg(args, int);
+	long int     nb = va_arg(args, int);
 	int     length = 0;
 	int     power = 1;
-	int     div;
+	long int     div;
 
 	if (nb < 0)
 	{
