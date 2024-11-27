@@ -10,8 +10,7 @@ int print_string(va_list args)
 
 {
 	char *string = va_arg(args,char *);
-	int i ;
-	i = 0;
+	int i = 0;
 
 	while (string[i])
 	{
