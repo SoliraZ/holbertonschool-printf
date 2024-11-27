@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  * print_int - Function that print an int.
- *   * @args: Character to print.
- *    *
- *     * Return: Number of characters printed.
- *      */
+ * print_int - Function that print an int.
+ * @args: Character to print.
+ *
+ * Return: Number of characters printed.
+ */
 
 int     print_int(va_list args)
 {
