@@ -8,7 +8,7 @@
 
 typedef struct types
 {
-	char *type;
+	char types;
 	int (*f)(va_list);
 } types_t;
 
