@@ -68,7 +68,7 @@ Len:[12]
 
 ### 📑 Man page
 
-[man _printf](https://i.ibb.co/B629g9x/Capture-d-cran-2024-11-28-171359.png)
+![man _printf](https://i.ibb.co/B629g9x/Capture-d-cran-2024-11-28-171359.png)
 
 ### 🔖 Flowchart
 
