@@ -68,9 +68,7 @@ Len:[12]
 
 ### 📑 Man page
 
-Man installation : Add the `.3` extension of the file `man_3_printf` and after that add executable permission to the file with `chmod u+x`.
-
-Man commande : `man ./man_3_printf.3`.
+Man commande : `man ./man_3_printf`.
 
 ![man _printf](https://i.ibb.co/B629g9x/Capture-d-cran-2024-11-28-171359.png)
 
