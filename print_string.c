@@ -22,6 +22,8 @@ int print_string(va_list args)
 		_putchar(')');
 		return (6);
 	}
+	if (string[i] == '\0')
+		return (0);
 	while (string[i])
 	{
 		_putchar(string[i]);
