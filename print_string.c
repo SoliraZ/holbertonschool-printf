@@ -12,6 +12,16 @@ int print_string(va_list args)
 	char *string = va_arg(args, char *);
 	int i = 0;
 
+	if (*string == '\0')
+	{
+		_putchar('(');
+		_putchar('n');
+		_putchar('u');
+		_putchar('l');
+		_putchar('l');
+		_putchar(')');
+		return (-1);
+	}
 	while (string[i])
 	{
 		_putchar(string[i]);
