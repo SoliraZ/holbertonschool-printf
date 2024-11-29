@@ -6,6 +6,12 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+/**
+ * struct types - a types struct
+ * @types: types of printing.
+ * @f: fonction types.
+ */
+
 typedef struct types
 {
 	char types;
