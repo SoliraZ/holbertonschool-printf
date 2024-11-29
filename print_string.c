@@ -12,7 +12,7 @@ int print_string(va_list args)
 	char *string = va_arg(args, char *);
 	int i = 0;
 
-	if (*string == '\0')
+	if (string == NULL || *string == '\0')
 	{
 		_putchar('(');
 		_putchar('n');
@@ -22,8 +22,6 @@ int print_string(va_list args)
 		_putchar(')');
 		return (6);
 	}
-	if (string[i] == '\0')
-		return (0);
 	while (string[i])
 	{
 		_putchar(string[i]);
