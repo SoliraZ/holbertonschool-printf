@@ -20,7 +20,7 @@ int print_string(va_list args)
 		_putchar('l');
 		_putchar('l');
 		_putchar(')');
-		return (-1);
+		return (6);
 	}
 	while (string[i])
 	{
