@@ -16,7 +16,6 @@ int     print_int(va_list args)
 
 	if (nb < 0)
 	{
-		length = length + 1;
 		_putchar('-');
 		nb = -nb;
 	}
